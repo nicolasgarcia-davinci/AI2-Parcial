@@ -14,12 +14,6 @@ public class Guild : MonoBehaviour
             Instance = this;
         else Destroy(this);
     }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         

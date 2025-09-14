@@ -4,13 +4,12 @@ using UnityEngine;
 
 public class Party : MonoBehaviour
 {
+    public string PartyName;
     public List<Character> PartyComp;
     void Start()
     {
         Guild.Instance.Partys.Add(this);
     }
-
-    // Update is called once per frame
     void Update()
     {
         

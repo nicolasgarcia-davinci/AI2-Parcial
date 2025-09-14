@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Character : MonoBehaviour
 {
+    public Party MyParty;
     public string Name;
     public int CurrentHP;
     public int MaxHP;
@@ -14,16 +15,6 @@ public class Character : MonoBehaviour
     public int XPToNextLvl;
     public int Lvl;
     public Weapon MyWeapon;
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
 
 public enum Weapon

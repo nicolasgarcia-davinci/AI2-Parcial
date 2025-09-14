@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class Ranger : Character
 {
-    // Start is called before the first frame update
     void Start()
     {
-        
+        MyParty = GetComponentInParent<Party>();
+        MyParty.PartyComp.Add(this);
     }
-
-    // Update is called once per frame
     void Update()
     {
         
