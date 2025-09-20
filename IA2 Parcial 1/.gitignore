@@ -1,0 +1,21 @@
+# Archivos de registro y temporales
+/Logs/
+/Temp/
+/Library/
+/obj/
+/build/
+*.bak
+*.DS_Store
+
+# Archivos de metadatos generados por Unity
+*.meta
+
+# Archivos de configuración de Visual Studio y Rider
+.vs/
+.idea/
+*.userprefs
+*.csproj
+*.sln
+
+# Archivos temporales de Unity Hub
+*.unitypackage

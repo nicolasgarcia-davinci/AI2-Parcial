@@ -21,6 +21,30 @@ public class Guild : MonoBehaviour
         
     }
 
+    public void AnalyzeWeaponDistribution()
+    {
+        var allCharacters = Partys
+            .SelectMany(party => party.PartyComp)
+            .Where(c => c != null)
+            .ToList();
+
+        if (allCharacters.Count == 0)
+        {
+            return;
+        }
+        var weaponCounts = allCharacters.Aggregate(
+            new Dictionary<Weapon, int>(),
+            (acc, character) => {
+                if (acc.ContainsKey(character.MyWeapon)) {
+                    acc[character.MyWeapon]++;
+                } else {
+                    acc[character.MyWeapon] = 1;
+                }
+                return acc;
+            }
+        );
+    }
+
     public IEnumerator<PartyAnalysis> AnalyzePartiesPerformance()
     {
         var allParties = Partys?.Where(p => p.PartyComp != null && p.PartyComp.Count > 0).ToList() ?? new List<Party>();
