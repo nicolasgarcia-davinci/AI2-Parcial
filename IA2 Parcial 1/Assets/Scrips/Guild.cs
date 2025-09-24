@@ -14,14 +14,13 @@ public class Guild : MonoBehaviour
     {
         if(Instance == null)
             Instance = this;
-        else Destroy(this);
     }
     void Update()
     {
         
     }
 
-    public void AnalyzeWeaponDistribution()
+    public void AnalyzeWeaponDistribution() //Funcion Linq 1: SelectMany, Where, ToList, junto al Aggregate complejo
     {
         var allCharacters = Partys
             .SelectMany(party => party.PartyComp)
@@ -43,40 +42,39 @@ public class Guild : MonoBehaviour
                 return acc;
             }
         );
+        //Tipo anonimo
+        var summary = weaponCounts.Select(kv => new { WeaponType = kv.Key, Count = kv.Value });
+        foreach (var item in summary)
+        {
+            Debug.Log($"Weapon: {item.WeaponType}, Count: {item.Count}");
+        }
     }
 
-    public IEnumerator<PartyAnalysis> AnalyzePartiesPerformance()
+    // Funcion Linq 2: Where, ToList, OrderByDescending, FirstOrDefault, junto a la Tupla y el TimeSlicing
+    public IEnumerator<(string PartyName, string TopCharacter)> AnalyzePartiesPerformance()
     {
         var allParties = Partys?.Where(p => p.PartyComp != null && p.PartyComp.Count > 0).ToList() ?? new List<Party>();
-        
-        for (int i = 0; i < allParties.Count; i += 2)
+    
+        for (int i = 0; i < allParties.Count; i++)
         {
-            var currentBatch = allParties.Skip(i).Take(2).ToList();
-            
-            foreach (var party in currentBatch)
-            {
-                var partyCharacters = party.PartyComp.ToList();
-                
-                var orderedCharacters = partyCharacters.OrderByDescending(c => c.Lvl).ToList();
-                
-                var validCharacters = orderedCharacters.Where(c => c.CurrentHP > 0).ToList();
-                
-                var hasInjuredMembers = validCharacters.Any(c => c.CurrentHP < c.MaxHP * 0.5f);
-                
-                var analysis = new PartyAnalysis
-                {
-                    PartyName = party.PartyName,
-                    TotalLevel = validCharacters.Sum(c => c.Lvl),
-                    InjuredCount = validCharacters.Count(c => c.CurrentHP < c.MaxHP * 0.3f),
-                    HasBalanceIssues = hasInjuredMembers,
-                    TopCharacter = orderedCharacters.FirstOrDefault()?.Name ?? "None"
-                };
+            var party = allParties[i];
 
-                yield return analysis;
-            }
-            
-            if (i + 2 < allParties.Count)
-                yield return null;
+            var partyCharacters = party.PartyComp.ToList();
+        
+            var orderedCharacters = partyCharacters.OrderByDescending(c => c.Lvl).ToList();
+        
+            var validCharacters = orderedCharacters.Where(c => c.CurrentHP > 0).ToList();
+        
+            var topChar = orderedCharacters.FirstOrDefault()?.Name ?? "None";
+
+            //Tupla
+            var result = (party.PartyName, topChar);
+            Debug.Log($"Party: {result.PartyName}, Top Character: {result.topChar}");
+
+            yield return result;
+        
+            if (i < allParties.Count - 1)
+                yield break;
         }
     }
 }

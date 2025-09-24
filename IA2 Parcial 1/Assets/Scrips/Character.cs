@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using System.Linq;
 
 public class Character : MonoBehaviour
 {
@@ -15,6 +17,7 @@ public class Character : MonoBehaviour
     public int XPToNextLvl;
     public int Lvl;
     public Weapon MyWeapon;
+
 }
 
 public enum Weapon
