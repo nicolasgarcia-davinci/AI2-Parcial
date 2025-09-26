@@ -331,14 +331,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts/Guild
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Alumno\Desktop\IA2
+  m_LastProjectPath: C:\Users\Alumno\Documents\GitHub\AI2-Parcial\IA2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 08420000
-    m_LastClickedID: 16904
-    m_ExpandedIDs: 00000000b44000002441000000ca9a3bffffff7f
+    m_SelectedIDs: a25b0000
+    m_LastClickedID: 23458
+    m_ExpandedIDs: 000000007c5a0000865a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -366,7 +366,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 000000007c5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,9 +506,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 10500000
       m_LastClickedID: 0
-      m_ExpandedIDs: fc25ffff
+      m_ExpandedIDs: c4f9ffff26fbffffda5a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

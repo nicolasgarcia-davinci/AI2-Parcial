@@ -25,7 +25,7 @@ public class Guild : MonoBehaviour
         
     }
 
-    public void AnalyzeWeaponDistribution() //Funcion Linq 1: SelectMany, Where, ToList, junto al Aggregate complejo
+    public void AnalyzeWeaponDistribution() //Funcion Linq 1: SelectMany, Where, ToList, junto al Aggregate complejo - Allois Felipe
     {
         var allCharacters = Partys
             .SelectMany(party => party.PartyComp)
@@ -58,7 +58,7 @@ public class Guild : MonoBehaviour
         }
     }
 
-    // Funcion Linq 2: Where, ToList, OrderByDescending, FirstOrDefault, junto a la Tupla y el TimeSlicing
+    // Funcion Linq 2: Where, ToList, OrderByDescending, FirstOrDefault, junto a la Tupla y el TimeSlicing - Allois Felipe
     public IEnumerator<(string PartyName, string TopCharacter)> AnalyzePartiesPerformance()
     {
         var allParties = Partys?.Where(p => p.PartyComp != null && p.PartyComp.Count > 0).ToList() ?? new List<Party>();
@@ -86,7 +86,7 @@ public class Guild : MonoBehaviour
         }
     }
 
-    public void AnalyzeManaUsage() //Funcion Linq 3: Where, SelectMany, ToList, etc
+    public void AnalyzeManaUsage() //Funcion Linq 3: Where, SelectMany, ToList, etc - Allois Felipe
     {
         var allCharacters = Partys
             .SelectMany(p => p.PartyComp)
@@ -116,13 +116,4 @@ public class Guild : MonoBehaviour
 
         Debug.Log($"Promedio de maná en todo el gremio: {avgMana}");
     }
-}
-
-public class PartyAnalysis
-{
-    public string PartyName;
-    public int TotalLevel;
-    public int InjuredCount;
-    public bool HasBalanceIssues;
-    public string TopCharacter;
 }
