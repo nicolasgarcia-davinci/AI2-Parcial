@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Dungeons\Automata.cs" />
     <Compile Include="Assets\Scripts\Dungeons\OwlBear.cs" />
     <Compile Include="Assets\Scripts\Guild\Guild.cs" />
+    <Compile Include="Assets\Scripts\GameMaster.cs" />
     <Compile Include="Assets\Scripts\Dungeons\Goblin.cs" />
     <Compile Include="Assets\Scripts\Guild\Party.cs" />
     <Compile Include="Assets\Scripts\Guild\Paladin.cs" />

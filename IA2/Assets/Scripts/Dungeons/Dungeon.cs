@@ -8,7 +8,7 @@ public class Dungeon : MonoBehaviour
 
     void Start()
     {
-        
+        GameMaster.Instance.Domains.Add(this);
     }
 
     // Update is called once per frame

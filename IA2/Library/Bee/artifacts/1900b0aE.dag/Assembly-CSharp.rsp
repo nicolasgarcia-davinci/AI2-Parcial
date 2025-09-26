@@ -365,6 +365,7 @@
 "Assets/Scripts/Dungeons/OwlBear.cs"
 "Assets/Scripts/Dungeons/Pixie.cs"
 "Assets/Scripts/Dungeons/Zombie.cs"
+"Assets/Scripts/GameMaster.cs"
 "Assets/Scripts/Guild/Berserker.cs"
 "Assets/Scripts/Guild/Character.cs"
 "Assets/Scripts/Guild/Guild.cs"

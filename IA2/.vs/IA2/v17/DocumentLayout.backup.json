@@ -1,54 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alumno\\IA2\\",
+  "WorkspaceRootPath": "C:\\Users\\Alumno\\Desktop\\IA2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\alumno\\ia2\\assets\\scripts\\dungeons\\arachne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeons\\arachne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\alumno\\ia2\\assets\\scripts\\dungeons\\automata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeons\\automata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\alumno\\ia2\\assets\\scripts\\dungeons\\imp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeons\\imp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\alumno\\ia2\\assets\\scripts\\dungeons\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeons\\goblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\alumno\\ia2\\assets\\scripts\\dungeons\\kobol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeons\\kobol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\alumno\\ia2\\assets\\scripts\\dungeons\\owlbear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeons\\owlbear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\alumno\\ia2\\assets\\scripts\\dungeons\\pixie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeons\\pixie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\alumno\\ia2\\assets\\scripts\\dungeons\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeons\\zombie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|C:\\Users\\Alumno\\IA2\\assets\\scripts\\dungeons\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeons\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\alumno\\ia2\\assets\\scripts\\dungeons\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeons\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|C:\\Users\\Alumno\\IA2\\assets\\scripts\\guild\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guild\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|C:\\Users\\Alumno\\IA2\\assets\\scripts\\guild\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guild\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\alumno\\desktop\\ia2\\assets\\scripts\\guild\\guild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guild\\guild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,161 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Zombie.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Zombie.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeons\\Zombie.cs",
-              "ToolTip": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Zombie.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeons\\Zombie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T19:30:14.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Pixie.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Pixie.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeons\\Pixie.cs",
-              "ToolTip": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Pixie.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeons\\Pixie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T19:30:13.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OwlBear.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\OwlBear.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeons\\OwlBear.cs",
-              "ToolTip": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\OwlBear.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeons\\OwlBear.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T19:30:13.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Kobol.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Kobol.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeons\\Kobol.cs",
-              "ToolTip": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Kobol.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeons\\Kobol.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T19:30:09.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Imp.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Imp.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeons\\Imp.cs",
-              "ToolTip": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Imp.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeons\\Imp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T19:30:09.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Goblin.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Goblin.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeons\\Goblin.cs",
-              "ToolTip": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Goblin.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeons\\Goblin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T19:30:09.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Automata.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Automata.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeons\\Automata.cs",
-              "ToolTip": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Automata.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeons\\Automata.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T19:30:04.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Arachne.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Arachne.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeons\\Arachne.cs",
-              "ToolTip": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Arachne.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeons\\Arachne.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Title": "Guild.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Desktop\\IA2\\Assets\\Scripts\\Guild\\Guild.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Guild\\Guild.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Desktop\\IA2\\Assets\\Scripts\\Guild\\Guild.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Guild\\Guild.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAwwH8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T19:30:04.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Mage.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Guild\\Mage.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Guild\\Mage.cs",
-              "ToolTip": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Guild\\Mage.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Guild\\Mage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T19:23:40.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Guild\\Character.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Guild\\Character.cs",
-              "ToolTip": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Guild\\Character.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Guild\\Character.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T19:19:33.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Monster.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Monster.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeons\\Monster.cs",
-              "ToolTip": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Monster.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeons\\Monster.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAQwAcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T19:19:25.517Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Dungeon.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Dungeon.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeons\\Dungeon.cs",
-              "ToolTip": "C:\\Users\\Alumno\\IA2\\Assets\\Scripts\\Dungeons\\Dungeon.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dungeons\\Dungeon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T19:19:25.213Z",
+              "WhenOpened": "2025-09-26T03:08:11.224Z",
               "EditorCaption": ""
             }
           ]
