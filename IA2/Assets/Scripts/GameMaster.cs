@@ -24,6 +24,15 @@ public class GameMaster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKeyUp(KeyCode.Alpha2))
+        {
+            DungeonRank();
+        }
+    }
+    public void DungeonRank() //Funcion Linq 2: select (en Dungeons con el Agregate) , OrderBy, tolist - Nicolas Garcia
+    {
+        var Rank= Domains.Select(x=> x.CalculateDungeonLevel());
+        var Order = Rank.OrderBy(x => x);
+        Debug.Log(Order);
     }
 }

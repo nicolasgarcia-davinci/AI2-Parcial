@@ -1,10 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Alumno\\Documents\\GitHub\\AI2-Parcial\\IA2\\",
+  "WorkspaceRootPath": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\alumno\\documents\\github\\ai2-parcial\\ia2\\assets\\scripts\\guild\\guild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\nicolas\\documents\\github\\ai2-parcial\\ia2\\assets\\scripts\\gamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\nicolas\\documents\\github\\ai2-parcial\\ia2\\assets\\scripts\\dungeons\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeons\\dungeon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\nicolas\\documents\\github\\ai2-parcial\\ia2\\assets\\scripts\\dungeons\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dungeons\\monster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\nicolas\\documents\\github\\ai2-parcial\\ia2\\assets\\scripts\\guild\\guild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guild\\guild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\nicolas\\documents\\github\\ai2-parcial\\ia2\\assets\\scripts\\guild\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guild\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\nicolas\\documents\\github\\ai2-parcial\\ia2\\assets\\scripts\\guild\\party.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guild\\party.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|c:\\users\\nicolas\\documents\\github\\ai2-parcial\\ia2\\assets\\scripts\\guild\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721AA659-AC5B-EB5F-96F5-BB248A0DD5FB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\guild\\mage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Monster.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Dungeons\\Monster.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeons\\Monster.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Dungeons\\Monster.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dungeons\\Monster.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T01:49:07.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dungeon.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Dungeons\\Dungeon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dungeons\\Dungeon.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Dungeons\\Dungeon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dungeons\\Dungeon.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T01:49:01.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameMaster.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\GameMaster.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameMaster.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\GameMaster.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameMaster.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T01:47:30.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Mage.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Guild\\Mage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Guild\\Mage.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Guild\\Mage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Guild\\Mage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T00:49:43.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Character.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Guild\\Character.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Guild\\Character.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Guild\\Character.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Guild\\Character.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T00:42:37.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Party.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Guild\\Party.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Guild\\Party.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Guild\\Party.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Guild\\Party.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T00:56:34.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Guild.cs",
-              "DocumentMoniker": "C:\\Users\\Alumno\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Guild\\Guild.cs",
+              "DocumentMoniker": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Guild\\Guild.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Guild\\Guild.cs",
-              "ToolTip": "C:\\Users\\Alumno\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Guild\\Guild.cs",
+              "ToolTip": "C:\\Users\\Nicolas\\Documents\\GitHub\\AI2-Parcial\\IA2\\Assets\\Scripts\\Guild\\Guild.cs",
               "RelativeToolTip": "Assets\\Scripts\\Guild\\Guild.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAcwFgAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwDYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T03:08:11.224Z",
               "EditorCaption": ""

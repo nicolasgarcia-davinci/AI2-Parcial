@@ -1,8 +1,9 @@
+using OpenCover.Framework.Model;
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
-using System;
 using System.Linq;
+using UnityEngine;
 
 public class Guild : MonoBehaviour
 {
@@ -22,7 +23,20 @@ public class Guild : MonoBehaviour
     }
     void Update()
     {
-        
+        if(Input.GetKeyUp(KeyCode.Alpha1))
+        {
+            IdiotMage();
+        }
+    }
+
+    public void IdiotMage() //Funcion Linq 1: select and where , SelectMany, tolist and OfType - Nicolas Garcia
+    {
+        var TheMages = Partys.SelectMany(suspects=> suspects.PartyComp.OfType<Mage>());
+        var thisIdiots = TheMages.Where(TheMages => TheMages.MyWeapon != Weapon.Scepter).ToList();
+        var TheNames = thisIdiots.Select(x => x.Name).ToList();
+
+        var showIdiots = (TheNames, thisIdiots);
+        Debug.Log(showIdiots);
     }
 
     public void AnalyzeWeaponDistribution() //Funcion Linq 1: SelectMany, Where, ToList, junto al Aggregate complejo - Allois Felipe
